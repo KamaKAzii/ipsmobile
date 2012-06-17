@@ -19,7 +19,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'compass-rails'
+gem 'compass-rails', '1.0.2'
 
 gem 'jquery-rails'
 
