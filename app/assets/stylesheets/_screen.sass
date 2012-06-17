@@ -1,14 +1,21 @@
 // _screen.sass
 
+@import compass
+
 #home
   .logo
     margin: 0 auto
     background: asset_url("logo.png", image) no-repeat left top
     width: 224px
     height: 30px
-  i, a
+  a
     display: block
     text-align: center
+    color: #999
   i
+    color: #2489CE
+    display: block
+    text-align: center
     font-size: 70px
     text-decoration: none
+    +text-shadow(rgba(0, 0, 0, 0.3) 0px 0px 8px,rgba(0, 0, 0, 0.2) 0px -1px 0px)
