@@ -1,11 +1,12 @@
 !!!
 %html
-  %head
-    %title
-      IPS - Mobile site
-    = stylesheet_link_tag "application"
-    = javascript_include_tag "application"
-    = csrf_meta_tags
+%head
+  %meta(name="viewport" content="width=device-width, initial-scale=1")
+  %title
+    IPS - Mobile site
+  = stylesheet_link_tag "application"
+  = javascript_include_tag "application"
+  = csrf_meta_tags
 
-  %body
-    = yield
+%body
+  = yield
