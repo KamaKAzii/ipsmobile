@@ -9,7 +9,7 @@ gem 'pg'
 
 gem 'haml'
 
-gem 'jquery_mobile_rails'
+gem 'jquery_mobile_rails', :git => 'git://github.com/hughkelsey/jquery-mobile-rails.git'
 
 # Gems used only for assets and not required
 # in production environments by default.
