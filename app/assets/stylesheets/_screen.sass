@@ -31,6 +31,22 @@
     font-size: 50px
     text-decoration: none
     +text-shadow(rgba(232, 244, 255, 0.3) 0px 0px 8px, rgba(0, 0, 0, 0.2) 0px -1px 0px)
+  .accreditations
+    margin: 32px auto
+    width: 253px
+  .trademonitor
+    +float(left)
+    width: 112px
+    height: 50px
+    background: asset_url("tradesmonitor.png", image) no-repeat left top
+    margin-right: 5px
+  .strata
+    +float(left)
+    width: 130px
+    height: 50px
+    background: asset_url("strata.png", image) no-repeat left top
+    margin-right: 5px
+    
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2)
   #home
@@ -39,5 +55,9 @@
     .logo
       background: asset_url("logo-x2.png", image) no-repeat left top
       background-size: 100% 100%
-      width: 233px
-      height: 23px
+    .trademonitor
+      background: asset_url("tradesmonitor-x2.png", image) no-repeat left top
+      background-size: 100% 100%
+    .strata
+      background: asset_url("strata-x2.png", image) no-repeat left top
+      background-size: 100% 100%
